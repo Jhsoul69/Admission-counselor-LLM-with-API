@@ -1,0 +1,34 @@
+# 🎓 AI-Powered Admission Counselor
+
+An intelligent admission counseling assistant powered by Large Language Models (LLMs) and integrated with APIs to help students explore the best-fit courses and universities based on their preferences, academic background, and real-time data.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Student Profiling:** Accepts user inputs such as interests, marks, preferred location, and stream.
+- 🤖 **LLM-based Recommendation:** Uses advanced LLMs to analyze data and provide personalized university/course suggestions.
+- 🌐 **Real-Time Data Fetching:** Integrates with web scraping tools (e.g., BeautifulSoup) or public APIs for live university/course information.
+- 📊 **SWOT Analysis:** Evaluates student strengths and weaknesses to guide career path decisions.
+- 📈 **Interactive Chat:** Provides conversational, step-by-step counseling experience.
+- 🛠️ **Modular Design:** Clean and well-documented codebase for easy customization and scalability.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **OpenAI API** – for language generation and decision-making
+- **BeautifulSoup4** – for scraping university/course data (if API not available)
+- **Pandas & NumPy** – for data handling and processing
+- **Scikit-learn (optional)** – for clustering or decision logic
+- **Streamlit (optional)** – to deploy as a web-based counselor UI
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/admission-counselor-llm.git
+cd admission-counselor-llm
+pip install -r requirements.txt
