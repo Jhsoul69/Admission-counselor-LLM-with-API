@@ -82,7 +82,7 @@ def mock_llm_advice(profile, matches):
     ]
 
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer a",
         "HTTP-Referer": "https://chat.openai.com/",
         "X-Title": "Admission-AI"
     }
